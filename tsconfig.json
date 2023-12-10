@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": [
+      "ESNext.Array",
+
+    ],
+    "module": "ESNext",
+    "types": ["bun-types"],
+  }
+}
