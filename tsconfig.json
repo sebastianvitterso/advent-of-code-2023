@@ -1,11 +1,16 @@
 {
   "compilerOptions": {
+    "esModuleInterop": true,
     "target": "ESNext",
-    "lib": [
-      "ESNext.Array",
-
-    ],
     "module": "ESNext",
+    "lib": ["ESNext.Array", "es2020"],
     "types": ["bun-types"],
-  }
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "sourceMap": true,
+    "outDir": "dist"
+  },
+  "include": ["./**/*"],
+  "exclude": ["node_modules"]
 }
